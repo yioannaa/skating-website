@@ -4,7 +4,7 @@ body{
 	width: 1080px;
 }
 h1,h2{
-  color: blue;
+  color: #1a66ff;
 }
 
 a:link, a:visited{
@@ -25,17 +25,31 @@ nav ul{
 nav li{
   display: inline;
   float: left;
+
 }
 
 nav a:link, nav a:visited{
-  background-color: blue;
+  background-color: #16439c	;
   color: white;
   display: block;
   width: 120px;
   text-align: center;
-  padding: 5, 0;
+  padding: 30px, 20px;
 }
 
 nav a:hover{
-  background-color: lightblue;
+  background-color: #6699ff;
 }
+
+header{
+  background-image: url("img/crystal-859317_1280.jpg");
+  height: 140px;
+  margin-bottom: 10px;
+}
+
+header h1{
+ 	color: rgba(256,256,256,.8);
+ 	margin-left: 30px;
+ 	margin-top: 30px;
+ 	font-size: 50px;
+ }

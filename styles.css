@@ -1,0 +1,14 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	margin: 0 auto;
+	width: 960px;
+}
+h1,h2{
+  color: blue;
+}
+
+a:link, a:visited{
+  text-decoration: none;
+  color: blue;
+  font-weight:bold;
+}

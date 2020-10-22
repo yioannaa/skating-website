@@ -1,7 +1,7 @@
 body{
 	font-family: 'Open Sans', sans-serif;
 	margin: 0 auto;
-	width: 960px;
+	width: 1080px;
 }
 h1,h2{
   color: blue;
@@ -11,4 +11,31 @@ a:link, a:visited{
   text-decoration: none;
   color: blue;
   font-weight:bold;
+}
+
+/* a:hover{
+  color: black;
+} */
+
+nav ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li{
+  display: inline;
+  float: left;
+}
+
+nav a:link, nav a:visited{
+  background-color: blue;
+  color: white;
+  display: block;
+  width: 120px;
+  text-align: center;
+  padding: 5, 0;
+}
+
+nav a:hover{
+  background-color: lightblue;
 }

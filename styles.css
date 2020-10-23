@@ -3,7 +3,7 @@ body{
 	margin: 0 auto;
 	width: 1080px;
 }
-h1,h2{
+ h1,h2{
   color: #1a66ff;
 }
 
@@ -13,13 +13,15 @@ a:link, a:visited{
   font-weight:bold;
 }
 
-/* a:hover{
+a:hover{
   color: black;
-} */
+}
 
-nav ul{
+ nav ul{
   list-style-type: none;
   padding: 0;
+	height: 30px;
+
 }
 
 nav li{
@@ -34,22 +36,63 @@ nav a:link, nav a:visited{
   display: block;
   width: 120px;
   text-align: center;
-  padding: 30px, 20px;
+  padding: 0px;
 }
 
 nav a:hover{
   background-color: #6699ff;
 }
 
+
+
 header{
   background-image: url("img/crystal-859317_1280.jpg");
-  height: 140px;
+  height: 98px;
   margin-bottom: 10px;
 }
 
+/*
 header h1{
  	color: rgba(256,256,256,.8);
  	margin-left: 30px;
  	margin-top: 30px;
  	font-size: 50px;
+ } */
+
+
+
+
+
+
+
+
+
+ /* header{
+ 	background-image: url("img/crystal-859317_1280.jpg");
+ 	height: 100px;
+ 	margin-bottom: 10px;
+ } */
+
+ header h1{
+ 	color: rgba(256,256,256,.8);
+ 	margin-left: 30px;
+ 	margin-top: 30px;
+ 	font-size: 50px;
+ }
+
+ footer{
+ 	margin:40px 0;
+ }
+
+ footer nav a:link, footer nav a:visited{
+ 	color:gray;
+ 	text-decoration: none;
+ 	display:block;
+ 	width:120px;
+ 	text-align: center;
+ 	background-color: white;
+ }
+
+ footer nav a:hover{
+ 	color: black;
  }

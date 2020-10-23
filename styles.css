@@ -78,6 +78,21 @@ aside {
 
 }
 
+.iframe-right{
+float: right;
+margin-right: 35px;
+margin-left: 20px;
+padding-top: 25px;
+}
+
+.iframe-centre{
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
 table{
 	border-collapse: collapse;
 	margin-left: auto;

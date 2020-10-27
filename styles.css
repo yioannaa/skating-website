@@ -67,6 +67,14 @@ header{
 	 padding-top: 30px;
  }
 
+ #img-down{
+ 	margin-left:auto;
+ 	margin-right: auto;
+	width: 1080px;
+	opacity: 0.4;
+
+}
+
 aside {
 	float: right;
 	text-align: center;
@@ -77,6 +85,8 @@ aside {
 	padding: 25px;
 
 }
+
+
 
 .iframe-right{
 float: right;
@@ -103,6 +113,7 @@ table{
 	border-collapse: collapse;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 30px;
 }
 
 caption{
@@ -134,4 +145,24 @@ td, th{
 
  footer nav a:hover{
  	color: black;
+ }
+
+ button{
+	background-color: #6699ff;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+ }
+
+ button:hover{
+	 background-color: white;
+	 color:#6699ff;
+	 border: 2px solid #6699ff;
  }

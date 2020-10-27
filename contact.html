@@ -5,8 +5,11 @@
     <title>Figure Skating</title>
     <link href="styles.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"/>
+    <script src="script.js"></script>
   </head>
   <body>
+    <script src="script.js"></script>
+
     <header>
       <h1>Figure Skating Jumps</h1>
     <nav>
@@ -26,7 +29,7 @@
   <main>
     <h1>Contact</h1>
     <aside>
-  <img src="img/boris-misevic-lR5xHmyvVVk-unsplash2.jpg" alt="a skater tying their skates">
+  <img src="img/kelli-mcclintock-8bH7yjcaFD4-unsplash3.jpg" alt="a skater tying their skates">
     </aside>
     <fieldset>
       <legend>Share your thoughts</legend>
@@ -38,9 +41,13 @@
       <input type="email" name="email" required placeholder="enter a valid email address" required size="45"><br/>
       <br/>
       Fell free to tell or ask us something!<br/>
-      <textarea name="thoughts" rows="15" cols="70"></textarea>
+      <textarea name="thoughts" rows="15" cols="70"></textarea><be/>
+      <br/>
+      <button onclick="clickButton">Send</button>
+
     </fieldset>
 <br/>
+
     <fieldset>
       <legend>Quick skating survey</legend>
       <br/>
@@ -65,8 +72,7 @@
       <input type="radio" name="skill" value="no">no<br/>
       <br/>
 
-      <button type="button" name="send">send</button>
-
+<button onclick="clickButton">Send</button>
     </fieldset>
   </main>
 
